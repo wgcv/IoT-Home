@@ -1,7 +1,8 @@
 ## Raspberry
 
+![Image of sketch](https://raw.githubusercontent.com/wgcv/IoT-Home/master/img/sketch.jpg)
+
 ### IrDa configuration
-https://hackernoon.com/make-your-tv-voice-controlled-through-amazon-alexa-and-raspberry-pi-a6373b7cf871
 First install the librery in the raspberry
 ```
 sudo apt-get install lirc
