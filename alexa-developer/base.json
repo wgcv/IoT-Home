@@ -1,0 +1,319 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "dino",
+            "intents": [
+                {
+                    "name": "AirConditionerAutoIntent",
+                    "slots": [
+                        {
+                            "name": "air_value_auto",
+                            "type": "AirConditionerInduramaValue"
+                        }
+                    ],
+                    "samples": [
+                        "turn on in auto {air_value_auto}",
+                        "in auto {air_value_auto}",
+                        "turn on to auto {air_value_auto}",
+                        "change to auto {air_value_auto}"
+                    ]
+                },
+                {
+                    "name": "AirConditionerDryIntent",
+                    "slots": [
+                        {
+                            "name": "air_value_dry",
+                            "type": "AirConditionerInduramaValue"
+                        }
+                    ],
+                    "samples": [
+                        "turn {air_value_dry}",
+                        "turn on in {air_value_dry}",
+                        "in {air_value_dry}",
+                        "turn on to {air_value_dry}",
+                        "change to {air_value_dry}",
+                        "turn on {air_value_dry}"
+                    ]
+                },
+                {
+                    "name": "AirConditionerFanIntent",
+                    "slots": [
+                        {
+                            "name": "fan_value",
+                            "type": "FanInduramaValue"
+                        }
+                    ],
+                    "samples": [
+                        "fan {fan_value}",
+                        "fan to {fan_value}",
+                        "change the fan to {fan_value}",
+                        "turn on the fan to {fan_value}",
+                        "fan in {fan_value}",
+                        "turn on the fan in {fan_value}"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "AirConditionerInduramaValue",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "sleep in 1"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "off",
+                                "synonyms": [
+                                    "turn off"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "sleep in 8"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "sleep in 7"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "sleep in 6"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "sleep in 5"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "sleep in 4 30"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "sleep in 4"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "sleep in 3 30"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "sleep in 3"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "sleep in 2 30"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "wake up in 4"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "wake up in 3"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "wake up in 2"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "wake up in 1"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "wake up in 30"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "sleep in 2"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "sleep in 1 30"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "sleep in 30"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "turbo"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "30"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "29"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "28"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "27"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "26"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "25"
+                            }
+                        },
+                        {
+                            "id": "24",
+                            "name": {
+                                "value": "24"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "23"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "22"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "21"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "20"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "19"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "18"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "17"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "FanInduramaValue",
+                    "values": [
+                        {
+                            "id": "off",
+                            "name": {
+                                "value": "off",
+                                "synonyms": [
+                                    "turn off"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "fast",
+                            "name": {
+                                "value": "fast"
+                            }
+                        },
+                        {
+                            "id": "medium",
+                            "name": {
+                                "value": "medium"
+                            }
+                        },
+                        {
+                            "id": "low",
+                            "name": {
+                                "value": "low"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "TvDoppioValue",
+                    "values": [
+                        {
+                            "id": "soruce",
+                            "name": {
+                                "value": "source",
+                                "synonyms": [
+                                    "hdmi",
+                                    "video"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "sleep",
+                            "name": {
+                                "value": "sleep"
+                            }
+                        },
+                        {
+                            "id": "mute",
+                            "name": {
+                                "value": "mute",
+                                "synonyms": [
+                                    "silence"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "volume_down",
+                            "name": {
+                                "value": "volume down",
+                                "synonyms": [
+                                    "less volume"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "volume_up",
+                            "name": {
+                                "value": "Volume up",
+                                "synonyms": [
+                                    "more volume"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
