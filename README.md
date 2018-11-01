@@ -1,3 +1,6 @@
+# The IoT that control all my bedroom
+I have a air conditioner and a tv that aren't smart, my solution is to controlled by Infrared with the raspberry pi.
+
 ## Raspberry
 
 ![Image of sketch](https://raw.githubusercontent.com/wgcv/IoT-Home/master/img/sketch.jpg)
